@@ -14,7 +14,6 @@ Package:
      - golang
      - hwdata
      - kernel
-     - kubernetes
      - libnl3
      - librtas
      - libservicelog
