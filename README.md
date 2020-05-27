@@ -9,12 +9,12 @@ be added here to establish a valid and tested set of software versions to build.
 
 ## Supported GNU/Linux distributions ##
 
-* CentOS 7.3 PPC64LE
+* CentOS 7.7 PPC64LE
 
 ## Installation ##
 The Builds project, at https://github.com/open-power-host-os/builds uses this
 repository automatically by cloning it and doing a git checkout in the tag
-refered in its config.yaml.
+referred in its config.yaml.
 
 ## Supported Packages and versions ##
 
@@ -43,10 +43,6 @@ refered in its config.yaml.
     <tr>
       <td>flannel</td>
       <td>0.5.5</td>
-    </tr>
-    <tr>
-      <td>gcc</td>
-      <td>4.8.5</td>
     </tr>
     <tr>
       <td>ginger-base</td>
@@ -87,14 +83,6 @@ refered in its config.yaml.
     <tr>
       <td>libnl3</td>
       <td>3.2.28</td>
-    </tr>
-    <tr>
-      <td>librtas</td>
-      <td>1.4.1</td>
-    </tr>
-    <tr>
-      <td>libservicelog</td>
-      <td>1.1.16</td>
     </tr>
     <tr>
       <td>libvirt</td>
@@ -186,8 +174,6 @@ The packages installed by each metapackage are as follows:
   - crash
   - hwdata
   - libnl3
-  - librtas
-  - libservicelog
   - libvpd
   - lshw
   - lsvpd
