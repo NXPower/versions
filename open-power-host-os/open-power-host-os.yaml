@@ -15,9 +15,7 @@ Package:
      - kernel
      - libnl3
      - libvirt
-     - libvpd
      - lshw
-     - lsvpd
      - ppc64-diag
      - qemu
      - servicelog

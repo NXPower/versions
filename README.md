@@ -89,16 +89,8 @@ referred in its config.yaml.
       <td>2.2.0</td>
     </tr>
     <tr>
-      <td>libvpd</td>
-      <td>2.2.5</td>
-    </tr>
-    <tr>
       <td>lshw</td>
       <td>B.02.18</td>
-    </tr>
-    <tr>
-      <td>lsvpd</td>
-      <td>1.7.7</td>
     </tr>
     <tr>
       <td>novnc</td>
@@ -174,9 +166,7 @@ The packages installed by each metapackage are as follows:
   - crash
   - hwdata
   - libnl3
-  - libvpd
   - lshw
-  - lsvpd
   - ppc64-diag
   - servicelog
   - sos
