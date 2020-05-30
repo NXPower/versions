@@ -1,5 +1,5 @@
-%global SLOF_gittagdate 20160223
-%global SLOF_gittagcommit dbbfda4
+%global SLOF_gittagdate 20171214
+%global SLOF_gittagcommit a98132
 
 %global have_usbredir 1
 %global have_spice    0
@@ -89,7 +89,7 @@ Requires: seavgabios-bin >= 1.9.1-4
 Requires: ipxe-roms-qemu >= 20160127-4
 %endif
 %ifarch %{power64}
-Requires: SLOF >= %{SLOF_gittagdate}-1.git%{SLOF_gittagcommit}
+Requires: SLOF >= %{SLOF_gittagdate}-3.git%{SLOF_gittagcommit}
 %endif
 Requires: %{pkgname}-common%{?pkgsuffix} = %{epoch}:%{version}-%{release}
 %if %{have_seccomp}
